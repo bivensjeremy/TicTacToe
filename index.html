@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe - Bivens Blueprint</title>
+
+    <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="public/stylesheet.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+ 
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="public/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon-16x16.png">
+  <link rel="manifest" href="public/images/site.webmanifest">
+
+    <!-- Font Awesome -->
+ <script src="https://kit.fontawesome.com/6ed38f5677.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Header -->
+  <section class="navigation-section">
+    <header class="navbar d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
+
+      <a class="navbar-brand h5 my-0 me-md-auto fw-normal" href="https://bivensblueprint.com/">
+        <img src="public/images/BP_logo.png" alt="BP Logo" width="60">
+      </a>
+      <nav class="my-2 my-md-0 me-md-3">
+        <a class="p-2" href="https://bivensblueprint.com/about">About Me</a>
+        <a class="p-2" href="https://bivensblueprint.com/portfolio">Portfolio</a>
+        <a class="p-2" href="https://bivensblueprint.com/services">Services</a>
+        <a class="p-2" href="https://bivensblueprint.com/contact">Contact Me</a>
+      </nav>
+    </header>
+  </section>
+
+<!-- Body -->
+
+ 
+<div class="container white-container">
+  
+<h1>Tic Tac Toe</h1>
+<div class="container grid">
+        <div class="row">
+          <div id="cell_0" class="cell c0"></div>
+          <div id="cell_1" class="cell c1"></div>
+          <div id="cell_2" class="cell c2"></div>
+        </div>
+        <div class="row">
+          <div id="cell_3" class="cell c3"></div>
+          <div id="cell_4" class="cell c4"></div>
+          <div id="cell_5" class="cell c5"></div>
+        </div>
+        <div class="row">
+          
+          <div id="cell_6" class="cell c6"></div>
+          <div id="cell_7" class="cell c7"></div>
+          <div id="cell_8" class="cell c8"></div>
+        </div>
+        
+        </div>
+
+      
+            <button id="reset" type="button" class="col-sm btn btn-primary btn-lg">Reset</>
+     
+      
+    </div>
+      <div id="winner"></div>
+      
+    </div>
+
+
+
+</div>
+    <div class="container">
+     <!-- Footer -->
+
+ <footer id="footer" class="footer mt-auto py-3">
+  <div class="container">
+    <a id="footer-link" class="footer-link" href="https://www.facebook.com/bivens.jeremy"><i class="fab fa-facebook-f fa-lg"></i></a>
+    <a id="footer-link" class="footer-link" href="https://www.instagram.com/bivensjeremy/"><i class="fab fa-instagram fa-lg"></i></a>
+    <a id="footer-link" class="footer-link" href="https://twitter.com/"><i class="fab fa-twitter fa-lg"></i></a>
+    <a id="footer-link" class="footer-link" href="https://www.linkedin.com/in/bivensjeremy"><i class="fab fa-linkedin fa-lg"></i></a>
+    <a id="footer-link" class="footer-link" href="mailto:admin@bivensblueprint.com?subject=Contact"><i class="fas fa-envelope fa-lg"></i></a>
+    <p><i class="far fa-registered"></i> 2021 Bivens Blueprint, LLC</p>
+  </div>
+
+</footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="javascript.js"></script>
+</body>
+</html>
